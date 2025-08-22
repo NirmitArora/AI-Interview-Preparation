@@ -17,7 +17,6 @@ const InterviewPage: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
 
-  // Sample questions database
   const questions: Record<string, Question[]> = {
     javascript: [
       {
