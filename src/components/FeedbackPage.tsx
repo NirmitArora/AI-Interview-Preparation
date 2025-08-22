@@ -9,7 +9,6 @@ const FeedbackPage: React.FC = () => {
   // Get data from InterviewPage
   const { question, answer, timeElapsed, category } = location.state || {};
 
-  // Simulate AI feedback (in a real app, this would come from your AI service)
   const feedback = {
     score: 85,
     strengths: [
